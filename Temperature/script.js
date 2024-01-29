@@ -3,7 +3,7 @@ const celsiusInput = document.querySelector('#Celcius input');
 const fahrenheitInput = document.querySelector('#Fahrenheit input');
 const kelvinInput = document.querySelector('#Kelvin input');
 const resetButton = document.querySelector('.button button');
-function updateTemperatures() {
+function updateTemperature() {
     const celsius = parseFloat(celsiusInput.value);
 
     if (!isNaN(celsius)) {
@@ -14,7 +14,7 @@ function updateTemperatures() {
         kelvinInput.value = '';
     }
 }
-celsiusInput.addEventListener('input', updateTemperatures);
+celsiusInput.addEventListener('input', updateTemperature);
 fahrenheitInput.addEventListener('input', function () {
     const fahrenheit = parseFloat(fahrenheitInput.value);
 
