@@ -1,4 +1,3 @@
-// Get input elements
 const celsiusInput = document.querySelector('#Celcius input');
 const fahrenheitInput = document.querySelector('#Fahrenheit input');
 const kelvinInput = document.querySelector('#Kelvin input');
