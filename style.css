@@ -1,0 +1,87 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    max-width:450px;
+    background-color: rgb(180, 109, 185);
+    border-radius:10px;
+    box-shadow:0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family:sans-serif;
+    padding:20px;
+}
+.title
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap: 10px;
+}
+h1{
+    color:aliceblue;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+#Celcius, #Fahrenheit, #Kelvin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+}
+input{
+    flex:5;
+    height:60px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border:none;
+    padding:2px;
+    border-radius:9px 0px 0px 9px;
+}
+.icon
+{
+    flex:1;
+    height:60px;
+    line-height: 60px;
+    padding:0px 5px;
+    background: rgb(165, 164, 164);
+    background-color: rgb(228, 204, 232);
+    border-radius:0 9px 9px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button
+{
+    text-align: center;
+    margin-top:15px;
+}
+.button button
+{
+    border:none;
+    outline:none;
+    padding:10px 30px;
+    font-size: 20px;
+    font-weight:600;
+    border-radius: 3px;
+    cursor:pointer;
+    transition:0.3s;
+}
+.button button:hover
+{
+    background-color: rgb(247, 248, 249);
+    color:rgb(121, 114, 114);
+} 
